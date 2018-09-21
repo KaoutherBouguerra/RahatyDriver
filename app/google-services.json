@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "821046702659",
+    "firebase_url": "https://rahaty-driver.firebaseio.com",
+    "project_id": "rahaty-driver",
+    "storage_bucket": "rahaty-driver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821046702659:android:555650e08876f5ed",
+        "android_client_info": {
+          "package_name": "art4muslim.macbook.rahatydriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821046702659-iguqufb90e63rtmckrrddc5nt34dk9di.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOPPZUhKASGf3PHfEL4ZATmzoX1QW6Sek"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

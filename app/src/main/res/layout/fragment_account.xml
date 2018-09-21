@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_choose_language"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="false"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="26dp"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminateTint="@color/colorAccent" />
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center" >
+
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/bg_green"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:src="@mipmap/money"/>
+            <TextView
+
+
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_current_balance"
+
+                android:layout_width="wrap_content"/>
+            <TextView
+
+                android:text="@string/current_balance"
+                android:textColor="@android:color/white"
+                android:textSize="11dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+        </LinearLayout>
+    </TableRow>
+
+    <!-- 2 columns -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        >
+
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@mipmap/bg_orange"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:src="@mipmap/wallet"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+
+
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_order_balance"
+
+                android:layout_width="wrap_content"/>
+            <TextView
+
+                android:text="@string/order_balance"
+                android:textColor="@android:color/white"
+                android:textSize="11dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/bg_blue"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:src="@mipmap/list_balance"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+
+
+                android:textColor="@android:color/white"
+                android:id="@+id/txt_orders_number"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+            <TextView
+
+                android:text="@string/done_orders"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:layout_width="wrap_content"/>
+        </LinearLayout>
+    </TableRow>
+
+
+
+
+
+    <!-- display this button in 2nd column via layout_column(zero based) -->
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+          >
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:background="@mipmap/bg_bblue"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:src="@mipmap/calcul"/>
+            <TextView
+
+
+                android:textColor="@android:color/white"
+                android:id="@+id/txt_amount"
+
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+            <TextView
+
+                android:text="@string/app_balance"
+                 android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:layout_width="wrap_content"/>
+        </LinearLayout>
+    </TableRow>
+
+</TableLayout>
+</RelativeLayout>
